@@ -23,3 +23,27 @@ Things you may want to cover:
 
 * ...
 # DevCampForRails
+
+
+# Dev bootcamp Portfolio Application
+
+> THis is a rails application that allows users to create their own portfolios
+
+### Features
+
+- Real time chat engine for comments
+- Blog
+- Portfolio
+- Drag and drop Interface
+
+### Code example
+
+```ruby
+def some_method
+    puts 'hi from ruby'
+end
+```
+
+``` javascript
+    alert('hi from js')
+```
