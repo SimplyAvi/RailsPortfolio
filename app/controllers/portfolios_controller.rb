@@ -22,7 +22,7 @@ class PortfoliosController < ApplicationController
         # format.json { render json: @portfolio_item.errors, status: :unprocessable_entity }
       end
      end
-    end
+  end
 
 
 
@@ -56,6 +56,7 @@ class PortfoliosController < ApplicationController
     respond_to do |format|
       format.html { redirect_to portfolios_url, notice: 'Record was successfully destroyed.' }
     #   format.json { head :no_content }
-  end
+    end
+   end
 
 end
