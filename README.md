@@ -2,6 +2,15 @@
 
 # use gem 'puma', '~> 3.11'
 
+### DB Modeling
+* Blogs:
+* Title: Baseball Worldseries, topic_id: 1
+* Title: SuperBowl, topic_id: 2
+* Title: Spring Training, topic_id: 3
+
+* Topics:
+* 1 Baseball
+* 2 Fotoball
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
