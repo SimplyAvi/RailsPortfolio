@@ -1,0 +1,8 @@
+{
+    "editor.minimap.enabled": false,
+    "better-comments.highlightPlainText": true,
+    "bracketPairColorizer.highlightActiveScope": true,
+    "ruby.format": "standard",
+    "ruby.intellisense": "rubyLocate",
+    "ruby.useLanguageServer": true
+}
