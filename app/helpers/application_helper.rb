@@ -17,6 +17,10 @@ module ApplicationHelper
         
     end
 
+    def copyright_generator
+        TotaramViewTool::Renderer.copyright 'Avitosh Totaram', 'All rights reserved'
+        
+    end
 
 
 end

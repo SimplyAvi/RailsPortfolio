@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/SimplyAvi/totaram_ruby_gem
+  revision: 9812bb1762962c5af16ad4ff0687d217fbfd3792
+  specs:
+    totaram_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -223,6 +229,7 @@ DEPENDENCIES
   sass-rails (~> 5.0)
   spring
   spring-watcher-listen (~> 2.0.0)
+  totaram_view_tool!
   turbolinks (~> 5)
   tzinfo-data
   uglifier (>= 1.3.0)
