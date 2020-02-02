@@ -4,5 +4,8 @@
     "bracketPairColorizer.highlightActiveScope": true,
     "ruby.format": "standard",
     "ruby.intellisense": "rubyLocate",
-    "ruby.useLanguageServer": true
+    "ruby.useLanguageServer": true,
+
+    "emmet.showSuggestionsAsSnippets": true,
+"emmet.includeLanguages": {"html.erb": "html", "erb": "html"}
 }
