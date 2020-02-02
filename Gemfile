@@ -73,3 +73,5 @@ gem 'bootstrap', '~> 4.4.1'
 gem 'jquery-rails'
 
 gem 'totaram_view_tool', git:'https://github.com/SimplyAvi/totaram_ruby_gem'
+
+gem 'petergate', '~> 2.0', '>= 2.0.1'
