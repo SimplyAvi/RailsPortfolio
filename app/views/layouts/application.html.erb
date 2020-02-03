@@ -3,14 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <title> <%= @page_title %>  </title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <meta name="keywords" content="<%= @seo_keywords %>" />
-
-
-
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   
@@ -18,26 +14,11 @@
 
 
   <body>
-
-    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
-       
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">     
         <%= render "shared/application_nav" %>
-
-
-      
-
-
         <%= yield %>
-
         <%= render "shared/application_footer" %>
- 
-
-       
       <%= source_helper('application') %>
- 
     </div>
-
-
-
   </body>
 </html>
