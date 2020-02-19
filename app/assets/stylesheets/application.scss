@@ -136,11 +136,9 @@ body {
 
 
  .login > .card {
-
     width: 22rem;
     margin: 0 auto;
     float: none;
-
  }
 
 
@@ -167,3 +165,18 @@ body {
  .app-footer {
      color: white;
  }
+
+
+ .tech-news {
+     color: black;
+     margin: 20px;
+ }
+
+  .tech-news a {
+      color: blue;
+      margin: 20px;
+  }
+
+    .tech-news > .card {
+        padding: 30px;
+    }

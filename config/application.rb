@@ -12,6 +12,7 @@ require "action_view/railtie"
 require "action_cable/engine"
 require "sprockets/railtie"
 require  "dotenv-rails"
+require   './lib/social_tool'
 # require "rails/test_unit/railtie"
 
 # Require the gems listed in Gemfile, including any gems
@@ -29,6 +30,7 @@ module DevcampPortfolio
     # the framework and any gems in your application.
 
     # Don't generate system test files.
+    config.eager_load_paths << "{Rails.root}/lib"
     config.generators.system_tests = nil
   end
 end
