@@ -5,6 +5,24 @@
     <%= link_to 'Edit', edit_blog_path(@blog) if logged_in?(:site_admin) %> 
     
     <p><%= @blog.body %></p>
+
+    <%# start of comment form %>
+        <% unless current_user.is_a? GuestUser %>
+            <%= form_for @comment, url: '#' do |f| %>
+            <div class="form-group">
+                <%= f.label :content %>
+                <%= f.text_area :content, class: "form-control"%>
+            </div>
+                <%= f.submit "Post Comment", class: "btn btn-primary" %>
+          <% end %>
+        <% end %>
+    <%# end of comment form %>
+
+    <%# start of comments %>
+
+    <%= render @blog.comments %>
+
+    <%# end of comments %>
 </div>
 
 
