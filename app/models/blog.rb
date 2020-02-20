@@ -6,6 +6,8 @@ enum status: { draft: 0, published: 1}
   validates_presence_of :title, :body
   belongs_to :topic, optional: true
 
+  has_many :comments, dependent: :destroy
+
   def self.special_blogs
     all
   end
