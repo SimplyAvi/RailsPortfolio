@@ -16,5 +16,9 @@ enum status: { draft: 0, published: 1}
     limit(2)
   end
 
+  def self.recent
+    order("Created_at DESC")
+    
+  end
 
 end
