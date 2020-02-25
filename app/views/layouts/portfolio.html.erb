@@ -7,10 +7,11 @@
     <title> <%= @page_title %>  </title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto+Slab&display=swap" rel="stylesheet">
     <meta name="keywords" content="<%= @seo_keywords %>" />
 
 
-
+    <%= favicon_link_tag 'favicons/favicon-16x16.ico' %>
     <%= stylesheet_link_tag    'portfolios', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   
@@ -29,6 +30,6 @@
     <%= render 'shared/portfolio_footer'%>
     <%= alerts %>
 
-  <%= source_helper('application') %>
+
   </body>
 </html>
