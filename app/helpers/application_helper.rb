@@ -80,7 +80,8 @@ nav_links = ''
     end
 
     def alert_generator msg
-        js add_gritter(msg, title: "Avitosh Totaram's Portfolio", sticky: false)
+        # binding.pry 
+        js add_gritter(msg, title: current_user.name, sticky: false)
 
     end
 
