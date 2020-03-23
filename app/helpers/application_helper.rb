@@ -80,7 +80,6 @@ nav_links = ''
     end
 
     def alert_generator msg
-        # binding.pry 
         js add_gritter(msg, title: current_user.name, sticky: false)
 
     end
