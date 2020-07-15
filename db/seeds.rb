@@ -18,13 +18,16 @@ User.create!(
 
 puts "1 regular user created"
 
-3.times do |topic|
-    Topic.create!(
-        title: "Topic#{topic}"
-    )
-end 
 
-puts('created 3 topics')
+    Topic.create!(
+        title: "Food Tech"
+    )
+    Topic.create!(
+        title: "Coding Tech"
+    )
+
+
+puts('created 2 topics')
 
 
 
@@ -65,7 +68,7 @@ puts('3 blogs created')
 
 puts('5 skills created')
 
-3.times do |portfolio|
+4.times do |portfolio|
     Portfolio.create!(
         title: "Portfolio title: #{portfolio}" ,
         subtitle: "Ruby on Rails" ,
@@ -74,15 +77,7 @@ puts('5 skills created')
         thumb_image: "https://place-hold.it/350x200" 
     )
 end
-1.times do |portfolio|
-    Portfolio.create!(
-        title: "Portfolio title: #{portfolio}" ,
-        subtitle: "Angular" ,
-        body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer commodo tellus quis tempor porttitor. Etiam et dictum nunc. Fusce dapibus posuere vehicula. Vivamus ultrices eros sed condimentum gravida. Sed ornare lobortis lacus, quis vulputate velit pulvinar vitae. Donec sit amet nisl id libero elementum ullamcorper. Phasellus eleifend vulputate diam at sagittis. Mauris fringilla mattis lorem at aliquet.",
-        main_image: "https://place-hold.it/600x400",
-        thumb_image: "https://place-hold.it/350x200" 
-    )
-end
+
 
 puts('9 portfolio created')
 
