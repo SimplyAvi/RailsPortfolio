@@ -40,14 +40,30 @@ end
 puts('10 blogs created')
 # byebug
 
-5.times do |skills|
-    Skill.create!(
-        title: "Rails #{skills}",
-        percent_utilized: 20
-    )
-end
 
-puts('5 blogs created')
+    Skill.create!(
+        title: "Ruby on Rails",
+        percent_utilized: 80
+    )
+    Skill.create!(
+        title: "React.js",
+        percent_utilized: 75
+    )
+    Skill.create!(
+        title: "Javascript",
+        percent_utilized: 80
+    )
+    Skill.create!(
+        title: "Ruby",
+        percent_utilized: 74
+    )
+    Skill.create!(
+        title: "Python",
+        percent_utilized: 50
+    )
+
+
+puts('5 skills created')
 
 8.times do |portfolio|
     Portfolio.create!(
